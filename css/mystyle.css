@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700|Fanwood+Text);
+/*css reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1452796651103-7c07fca7a2c1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b52585e1b7de3caf7f1bca8c4f9875a0");
+  background-position: center;
+
+}
+/*div*/
+.container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*HEADER */
+header {
+  margin: 0;
+  height: 5rem;
+  width: 100%;
+  padding: 15px 0 0 0;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  opacity: 0.98;
+  top: 0;
+
+
+  }
+header h1{
+  margin:0 0 0.67em 0;
+  font-family: 'Quattrocento', serif;
+  padding: 0;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(113, 120, 210);
+  text-shadow: #4C4343 3px 3px;
+  width: 50%;
+  float: left;
+  }
+/*NAV*/
+.top-nav {
+  padding: 20px 10px 0 0;
+  float: right;
+}
+.top-nav ul {
+  list-style: none;
+
+}
+.top-nav ul li {
+display: inline-block;
+}
+.top-nav ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+a {
+  color: gray;
+}
+/*about me*/
+.about p {
+background: rgba(41, 36, 36, 0.58);
+border-radius: 20px;
+text-shadow:#4C4343 3px 3px;
+  width: 500px;
+  margin: 2em;
+  padding: 1em;
+  float: right;
+  color: #EEEEEE;
+  font-family: 'Fanwood Text', serif;
+  font-size: 25px;
+}
+/*Portfolio*/
+section {
+  height: 400px;
+  width: 100%;
+  margin: 10% 0;
+  /*margin: 5% 0 5% 0; */
+  }
+  .Portfolio h1 {
+    text-align: center;
+    font-family: 'Fanwood Text', serif;
+    color: #EEEEEE;
+    text-shadow: #000000 3px 3px;
+  }
+  .projects li  {
+    list-style: none;
+    display: inline-block;
+    width: 32%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+  h3 {
+    font-family: 'Fanwood Text',serif;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+/*footer*/
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+  }
+  .social hr {
+      border-image: none;
+      border-style: solid none none;
+      border-width: 1px 0 0;
+      margin: 1.313rem;
+
+  }
+  .social .icons > li {
+      border: 1px solid #eaebec;
+      border-radius: 2.25rem;
+      display: inline-block;
+      height: 2.5rem;
+      margin: 1.25rem 5px;
+      padding: 1.25rem 0 0;
+      text-align: center;
+      width: 3.5rem;
+  }
+  .social .twitter {
+      color: #55acee;
+  }
+
+  .social .facebook {
+      color: #4c66a4;
+  }
+  .social .instagram {
+      color: #3f729b;
+  }
